@@ -44,7 +44,3 @@ class Filtro_Vinil():
 
             else:
                 cv2.imshow('Filtro Vinil', self.img_copy)
-
-
-fv = Filtro_Vinil(r'Filtro_Vinil\img_teste2.jpg')
-fv.show_image()
